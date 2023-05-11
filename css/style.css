@@ -59,6 +59,43 @@ header .my-row .shopping a:not(:last-child) {
 }
 
 
+
+
+
+
+
+/* FOOTER */
+footer{
+    color: white;
+    background-color: #1a1a1a;
+    padding: 20px 0;
+}
+footer a {
+    color: white;
+    text-decoration: none;
+}
+footer .container {
+    display: flex;
+    justify-content: space-between;
+}
+footer .footer-left h6, 
+    .footer-right h6 {
+        font-size: 1.1em;
+        margin-bottom: 15px;
+}
+footer .footer-right .info > a{
+    font-size: 1.3em;
+}
+footer .footer-right .info > a:nth-child(even){
+    margin: 0 10px;
+}
+footer .footer-left .info > a:nth-child(even){
+    margin: 0 20px;
+}
+
+
+
+
 /* DEBUG */
 .debug header .my-row > *{
     border: 2px dotted black;
@@ -66,4 +103,7 @@ header .my-row .shopping a:not(:last-child) {
 .debug main {
     height: 1000px;
     background-color: blueviolet;
+}
+.debug footer .container > * {
+    border: 2px dotted white;
 }
